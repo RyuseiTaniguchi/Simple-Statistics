@@ -123,6 +123,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="alist.h" />
+    <ClInclude Include="aqueue.h" />
+    <ClInclude Include="astack.h" />
+    <ClInclude Include="dlink.h" />
+    <ClInclude Include="dllist.h" />
+    <ClInclude Include="link.h" />
+    <ClInclude Include="linkenode.h" />
+    <ClInclude Include="list.h" />
+    <ClInclude Include="llist.h" />
+    <ClInclude Include="lqueue.h" />
+    <ClInclude Include="lstack.h" />
+    <ClInclude Include="queue.h" />
+    <ClInclude Include="stack.h" />
+    <ClInclude Include="utilities.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
